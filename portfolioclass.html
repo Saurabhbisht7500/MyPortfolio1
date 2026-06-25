@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolioclass.css">
+</head>
+<body>
+    <header>
+    <h2 style="text-align: center; padding: 2px;">My Portfolio</h2>
+    <nav>
+        <div class="nav-group">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="resume.html">Resume</a></li>
+         </ul>
+         </div>
+
+         <div class="btns">
+            <button class="btn">Hire me</button>
+         </div>
+        </nav>
+        </header>
+        <main>
+            <section id="about">
+                <h2>About me</h2>
+                 <div id="image">
+                    <img src="data:image/jpeg;base64,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" alt="" height="140" width="110" class="img">
+                     <p>     Hello! My name is Saurabh Bisht. I am a Diploma student with a strong interest in
+        Computer Science and Information Technology. I enjoy learning programming
+        languages such as C and C++, as well as web development using HTML, CSS,
+        and JavaScript. I am passionate about creating websites, exploring new
+        technologies, and improving my technical skills through practical projects.
+        I am a hardworking, dedicated, and enthusiastic learner who is always eager
+        to gain new knowledge and solve challenging problems. My goal is to build a
+        successful career in the technology field and contribute to innovative
+        software and web development projects.</p>
+                 </div>
+               
+            </section>
+            <section id="project">
+                <h2>My Projects</h2>
+                <ul>
+                    <div class="project-card">
+    <h3>1 - Live Attendance System</h3>
+    <p>   -  Attendance management system using web technologies.</p>
+    </div >
+    <div class="project-card">
+        <h3>2 - Weather forecasting System</h3>
+        <p>-A weather forecasting system is a complex technological framework that applies science and technology to predict atmospheric conditions for a given location and time</p>
+     </div>
+     <div class="project-card">
+        <h3>3 - Portfolio</h3>
+        <p> - A professional portfolio is a home base for my identity, housing your best projects, case studies, and background to land jobs or clients</p>
+
+     </div>
+     <div class="project-card">
+        <h3>4 - Live Question</h3>
+        <p> - AI-powered educational tools and software designed to provide instant, real-time answers to questions.</p>
+     </div>
+
+                </ul>
+            </section>
+            <section class="skills">
+                <h2 style="color:white;">Skills</h2>
+                <ul>
+                       <li>1 - HTML - 90%</li>
+                        <li>2 - CSS - 85%</li>
+                        <li>3 - JavaScript - 70%</li>
+                         <li>4 - C++ - 80%</li>
+                </ul>
+            </section>
+            <section class="education">
+                <h2>Education</h2>
+                <div id="education-item">
+                    <h3>Diploma in Computer Science & Engineering</h3>
+        <p style="color: darkolivegreen;"><strong>Uttarakhand Government Institute of Polytechnic Rudraprayag</strong></p>
+        <p>2024 - Present</p>
+        <p>
+            Currently pursuing a Diploma in Computer Science and Engineering.
+            Learning programming languages such as C and C++, web development
+            using HTML, CSS, and JavaScript, database management systems,
+            and software development concepts.
+        </p>
+                </div>
+                <br>
+                   <div class="education-item">
+        <h3>Intermediate (Class 12)</h3>
+        <p><strong>Government Inter College Ratura (Rudraprayag)</strong></p>
+        <p>Completed in 2024</p>
+        <p>(79%)</p>
+    </div>
+
+    <div class="education-item">
+        <h3>High School (Class 10)</h3>
+        <p><strong>Government Inter College Ratura (Rudraprayag)</strong></p>
+        <p>Completed in 2022</p>
+        <p>(81$)</p>
+    </div>
+            </section>
+            <section id="resume">
+                <h2>Resume </h2>
+                <a href="https://linkdin.com" style="font-size: xx-large;">https://linkdin.com</a>
+            </section>
+            <section id="contact">
+                <h2>Contact </h2>
+                <ul>
+                    <div class="contact">
+                        <h3 style="color: chartreuse;">1 - Github</h3>
+                        <a href="https://github.com/">  -  https://github.com/</a>
+                    </div>
+                    <div class="contact">
+                        <h3 style="color: aqua;">2 - linkdin</h3>
+                        <a href="https://linkdin.com"> - https://linkdin.com</a>
+
+                    </div>
+                    <div class="contact">
+                        <h3 style="color:darkcyan;">3 - Facebook</h3>
+                        <a href="https://facebook.com"> - https://facebook.com</a>
+                    </div>
+                    <div class="contact">
+                        <h3 style="color: darkmagenta;">4 - Instagram</h3>
+                        <a href="https://instagram.com">- https://instagram.com</a>
+                    </div>
+                </ul>
+            </section>
+        </main>
+        <footer>
+    <p>© 2026 Saurabh Bisht. All Rights Reserved.</p>
+</footer>
+    
+</body>
+</html>
